@@ -19,6 +19,7 @@ Upori
 # NAČRT OHIŠJA
 Spodaj je prikazan načrt ohišja merilnika. Ohišjr jr narisan v programu Oneshape.
 <img width="772" height="569" alt="image" src="https://github.com/user-attachments/assets/a93548e4-ab64-47ff-a2d6-d7d918f5e44a" />
+
 <img width="894" height="601" alt="image" src="https://github.com/user-attachments/assets/9bc9a477-b5de-4865-8e13-cb7840e0f351" />
 
 
