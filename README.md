@@ -14,5 +14,5 @@ LED diode,
 Žičke,
 Upori
 
-#KODA ZA MERILNIK
+# KODA ZA MERILNIK
 
