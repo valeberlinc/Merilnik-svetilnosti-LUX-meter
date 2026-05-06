@@ -7,4 +7,12 @@ Cilj naloge je izdelati delujoč merilnik svetilnosti, razumeti delovanje foto u
 
 
 # UPORABLJENE KOMPONENTE
-Arduino UNO,
+Arduino NANO,
+LCD I2C,
+Photo upor,
+LED diode,
+Žičke,
+Upori
+
+#KODA ZA MERILNIK
+
