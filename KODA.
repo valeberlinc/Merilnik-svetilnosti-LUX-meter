@@ -14,14 +14,14 @@ const int LED_BRIGHT = 9;   // ekstra svetlo
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // ===== KALIBRACIJA =====
-const double adc1 = 200.0;
-const double lux1 = 27.0;
+const double adc1 = 446.0;
+const double lux1 = 67.0;
 
-const double adc2 = 700.0;
-const double lux2 = 300.2;
+const double adc2 = 708.0;
+const double lux2 = 288.2;
 
-const double adc3 = 900.0;
-const double lux3 = 1500.0;
+const double adc3 = 901.0;
+const double lux3 = 2642.0; 
 
 double correctionFactor = 1.0;
 
@@ -87,8 +87,8 @@ void setup() {
   lcd.backlight();
 
   lcd.setCursor(0, 0);
-  lcd.print("Light meter");
-  delay(1000);
+  lcd.print("Lux meter:");
+  delay(2000);
   lcd.clear();
 }
 
@@ -130,4 +130,5 @@ void loop() {
 
   delay(1000);
 }
+
 
