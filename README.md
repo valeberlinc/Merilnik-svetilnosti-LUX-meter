@@ -11,11 +11,7 @@ Cilj naloge je izdelati delujoč merilnik svetilnosti, razumeti delovanje foto u
 
 
 
-# NAČRT OHIŠJA
-Spodaj je prikazan načrt ohišja merilnika. Ohišje je narisan v programu Oneshape.
-<img width="772" height="569" alt="image" src="https://github.com/user-attachments/assets/a93548e4-ab64-47ff-a2d6-d7d918f5e44a" />
 
-<img width="894" height="601" alt="image" src="https://github.com/user-attachments/assets/9bc9a477-b5de-4865-8e13-cb7840e0f351" />
 
 # SKICA VEZAVE V EASYEDA
 <img width="1039" height="650" alt="Posnetek zaslona 2026-05-11 114841" src="https://github.com/user-attachments/assets/9f7e4abe-0380-40be-ac14-8c93c3550ec4" />
