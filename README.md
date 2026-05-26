@@ -6,7 +6,7 @@ Signal foto upora se preko napetostnega delilnika pretvori v analogno napetost, 
 Cilj naloge je izdelati delujoč merilnik svetilnosti, razumeti delovanje foto upora ter prikazati, kako lahko analogne signale pretvorimo v uporabne podatke za nadaljnjo obdelavo.
 
 
-# UPORABLJENE KOMPONENTE
+# KOSOVNICA
 <img width="567" height="349" alt="image" src="https://github.com/user-attachments/assets/14d2cc4b-9515-4724-936e-68a2a8229024" />
 
 
