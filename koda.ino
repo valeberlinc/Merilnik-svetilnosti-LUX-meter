@@ -10,14 +10,18 @@ const int LED_BRIGHT = 9;   // ekstra svetlo
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // ===== KALIBRACIJA =====
-const double adc1 = 200.0;
-const double lux1 = 27.0;
 
-const double adc2 = 700.0;
-const double lux2 = 300.2;
+const double adc1 = 235.0;
+const double lux1 = 31.4;
 
-const double adc3 = 900.0;
-const double lux3 = 1500.0;
+const double adc2 = 605.0;
+const double lux2 = 253.2;
+
+const double adc3 = 717.0;
+const double lux3 = 489.2;
+
+const double adc4 = 755.0;
+const double lux4 = 632.0;
 
 double correctionFactor = 1.0;
 
