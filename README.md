@@ -10,7 +10,8 @@ Projekt združuje znanja s področja elektronike, merilne tehnike in programiran
 Glavni cilj naloge je izdelati delujoč merilnik svetilnosti, raziskati delovanje foto upora ter prikazati postopek pretvorbe analognih signalov v uporabne podatke za nadaljnjo obdelavo. Ob tem želiva pridobiti praktične izkušnje pri povezovanju elektronskih komponent, programiranju mikrokrmilnika Arduino in interpretaciji merilnih rezultatov. Projekt predstavlja preprost, vendar učinkovit primer uporabe senzorjev za zaznavanje fizikalnih veličin v realnem okolju.
 
 # KOSOVNICA
-<img width="567" height="349" alt="image" src="https://github.com/user-attachments/assets/14d2cc4b-9515-4724-936e-68a2a8229024" />
+<img width="841" height="242" alt="image" src="https://github.com/user-attachments/assets/d30de1ad-809b-4d5b-b25b-066432567bc1" />
+
 
 
 
