@@ -1,10 +1,13 @@
 # Merilnik-svetilnosti-LUX-meter
-V tem projektu je predstavljen merilnik svetilnosti oz. LUX meter, ki temelji na uporabi photo upora(LDR). Foto upor je pasivna elektronska komponenta, katere upornost se spreminja glede na količino svetlobe, ki pada nanj. Pri večji osvetlitvi se njegova upornost zmanjša, pri manjši pa poveča, kar omogoča enostavno pretvorbo svetlobne jakosti v električni signal.
+V tem projektu je predstavljen merilnik svetilnosti oziroma LUX meter, ki temelji na uporabi foto upora (LDR – Light Dependent Resistor) in mikrokrmilnika Arduino. Merilnik svetilnosti je naprava, ki omogoča merjenje intenzitete svetlobe v okolici ter prikaz izmerjenih vrednosti v uporabniku razumljivi obliki.
 
-Signal foto upora se preko napetostnega delilnika pretvori v analogno napetost, ki jo mikrokrmilnik, kot je Arduino, zazna in obdela. Na podlagi izmerjenih vrednosti lahko sistem prikazuje svetilnost.
+Foto upor je pasivna elektronska komponenta, katere električna upornost je odvisna od količine svetlobe, ki pada na njegovo površino. Ko je osvetlitev večja, se njegova upornost zmanjša, pri manjši osvetlitvi pa se poveča. Zaradi te lastnosti je foto upor primeren za uporabo v različnih sistemih za zaznavanje svetlobe, kot so avtomatska razsvetljava, varnostni sistemi, merilniki svetlobe in drugi elektronski projekti.
 
-Cilj naloge je izdelati delujoč merilnik svetilnosti, razumeti delovanje foto upora ter prikazati, kako lahko analogne signale pretvorimo v uporabne podatke za nadaljnjo obdelavo.
+Za merjenje svetlobe je foto upor povezan v napetostni delilnik, ki spremembe njegove upornosti pretvarja v spremembe napetosti. Nastala analogna napetost se dovede na analogni vhod mikrokrmilnika Arduino, ki jo s pomočjo analogno-digitalnega pretvornika pretvori v digitalno vrednost. Program nato te podatke obdela in jih pretvori v približno vrednost svetilnosti, ki jo lahko prikažemo na serijskem monitorju, LCD-zaslonu ali drugi prikazovalni napravi.
 
+Projekt združuje znanja s področja elektronike, merilne tehnike in programiranja. Poleg izdelave samega vezja vključuje tudi razumevanje delovanja senzorjev, analognih signalov ter njihove obdelave v mikrokrmilniških sistemih. Takšni sistemi so osnova številnih sodobnih naprav za avtomatizacijo in nadzor okolja.
+
+Glavni cilj naloge je izdelati delujoč merilnik svetilnosti, raziskati delovanje foto upora ter prikazati postopek pretvorbe analognih signalov v uporabne podatke za nadaljnjo obdelavo. Ob tem želiva pridobiti praktične izkušnje pri povezovanju elektronskih komponent, programiranju mikrokrmilnika Arduino in interpretaciji merilnih rezultatov. Projekt predstavlja preprost, vendar učinkovit primer uporabe senzorjev za zaznavanje fizikalnih veličin v realnem okolju.
 
 # KOSOVNICA
 <img width="567" height="349" alt="image" src="https://github.com/user-attachments/assets/14d2cc4b-9515-4724-936e-68a2a8229024" />
