@@ -28,7 +28,7 @@ Glavni cilj naloge je izdelati delujoč merilnik svetilnosti, raziskati delovanj
 Koda se nahaja v repezitorju koda.ino [klikni za ogled](koda.ino)
 
 # POSNETEK DELOVANJA
-posnetek se nahaja v repezitorju video.md [klikni za ogled](vdeo.delovanja.mp4)
+posnetek se nahaja v repezitorju video.md [klikni za ogled](video.delovanja.mp4)
 
 
 
