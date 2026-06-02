@@ -24,7 +24,7 @@ Skici vezave si lahko ogldate v repezitorju načrt_ohišja.png [klikni za ogled]
 Koda se nahaja v repezitorju koda.ino [klikni za ogled](koda.ino)
 
 # IZRAČUNI POSAMEZNIH KOMPONENT
-Pri projektu ni bilo potrebnih nobenih izračunov, samo odčitana vrednost photo upora(10k\(\Omega \))
+Pri projektu ni bilo potrebnih nobenih izračunov, samo odčitana vrednost photo upora(10kE)
 
 # POSNETEK DELOVANJA
 posnetek se nahaja v repezitorju video.DELOVANJA.md [klikni za ogled](video.delovanja.md)
@@ -34,6 +34,9 @@ A-test se nahaja v repezitorju a-test.pdf [klikni za ogled](a-test.pdf)
 
 # KOMENTAR DELOVANJA
 Projekt merilnika svetilnosti je bil uspešno izveden, saj sva izdelala napravo, ki s pomočjo foto upora zaznava spremembe svetlobe v okolici. Izmerjene vrednosti se obdelajo z mikrokrmilnikom Arduino in prikažejo na LCD zaslonu, LED diode pa uporabniku omogočajo hitro vizualno oceno osvetlitve prostora. Med izdelavo projekta sva pridobila praktično znanje s področja elektronike, uporabe senzorjev in programiranja mikrokrmilnikov. Ugotovila sva, da je mogoče z enostavnimi in cenovno dostopnimi komponentami izdelati učinkovit sistem za merjenje svetilnosti.
+
+# OCENA NATANČNOSTI
+Glede na to, da za projektn uporabljava photo upor, je natančnost težko zagotoviti. Ampak meritve so dokaj natančne(odstopanje +/- 6.9 lx)
 
 # MOŽNE IZBOLJŠAVE
 * Samodejna kalibracija
