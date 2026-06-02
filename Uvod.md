@@ -30,6 +30,9 @@ Koda se nahaja v repezitorju koda.ino [klikni za ogled](koda.ino)
 # POSNETEK DELOVANJA
 posnetek se nahaja v repezitorju video.md [klikni za ogled](video.delovanja.mp4)
 
+# A-TEST
+A-test se nahaja v repezitorju a-test.pdf [klikni za ogled](a-test.pdf)
+
 
 
 
