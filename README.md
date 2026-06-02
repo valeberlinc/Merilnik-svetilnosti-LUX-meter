@@ -23,6 +23,9 @@ Skici vezave si lahko ogldate v repezitorju načrt_ohišja.png [klikni za ogled]
 # KODA
 Koda se nahaja v repezitorju koda.ino [klikni za ogled](koda.ino)
 
+# IZRAČUNI POSAMEZNIH KOMPONENT
+Pri projektu ni bilo potrebnih nobenih izračunov, samo odčitana vrednost photo upora(10k\(\Omega \))
+
 # POSNETEK DELOVANJA
 posnetek se nahaja v repezitorju video.DELOVANJA.md [klikni za ogled](video.delovanja.md)
 
