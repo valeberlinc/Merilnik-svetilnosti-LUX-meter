@@ -24,7 +24,7 @@ Skici vezave si lahko ogldate v repezitorju načrt_ohišja.png [klikni za ogled]
 Koda se nahaja v repezitorju koda.ino [klikni za ogled](koda.ino)
 
 # POSNETEK DELOVANJA
-posnetek se nahaja v repezitorju video.md [klikni za ogled](video.delovanja.mp4)
+posnetek se nahaja v repezitorju video.DELOVANJA.md [klikni za ogled](video.delovanja.md)
 
 # A-TEST
 A-test se nahaja v repezitorju a-test.pdf [klikni za ogled](a-test.pdf)
