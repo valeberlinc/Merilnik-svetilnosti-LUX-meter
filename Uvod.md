@@ -26,6 +26,7 @@ Glavni cilj naloge je izdelati delujoč merilnik svetilnosti, raziskati delovanj
 
 
 
+![video](IMG_6271.mp4)
 
 
 
