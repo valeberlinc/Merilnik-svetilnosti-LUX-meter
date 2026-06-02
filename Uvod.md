@@ -33,6 +33,15 @@ posnetek se nahaja v repezitorju video.md [klikni za ogled](video.delovanja.mp4)
 # A-TEST
 A-test se nahaja v repezitorju a-test.pdf [klikni za ogled](a-test.pdf)
 
+# KOMENTAR DELOVANJA
+Projekt merilnika svetilnosti je bil uspešno izveden, saj sva izdelala napravo, ki s pomočjo foto upora zaznava spremembe svetlobe v okolici. Izmerjene vrednosti se obdelajo z mikrokrmilnikom Arduino in prikažejo na LCD zaslonu, LED diode pa uporabniku omogočajo hitro vizualno oceno osvetlitve prostora. Med izdelavo projekta sva pridobila praktično znanje s področja elektronike, uporabe senzorjev in programiranja mikrokrmilnikov. Ugotovila sva, da je mogoče z enostavnimi in cenovno dostopnimi komponentami izdelati učinkovit sistem za merjenje svetilnosti.
+
+# MOŽNE IZBOLJŠAVE
+* Samodejna kalibracija
+* shranjevanje podatkov na pomnilniško kartico ali brezžični prenos podatkov na računalnik oziroma mobilno napravo
+*  zaščitno ohišje, ki bi komponente zaščitilo pred poškodbami
+*  uporaba drugih barv diod, ki bi bolj spominjale stanja svetlobe v oklici
+
 
 
 
