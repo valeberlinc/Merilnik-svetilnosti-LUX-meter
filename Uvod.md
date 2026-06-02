@@ -25,7 +25,7 @@ Glavni cilj naloge je izdelati delujoč merilnik svetilnosti, raziskati delovanj
 <img width="780" height="497" alt="image" src="https://github.com/user-attachments/assets/71b156a1-c036-4988-b924-ffa757eec613" />
 
 # KODA
-Koda se nahaja v repezitorju koda.ino
+Koda se nahaja v repezitorju [koda.ino]
 
 
 
