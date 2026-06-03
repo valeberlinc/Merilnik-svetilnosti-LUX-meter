@@ -19,7 +19,12 @@ Glavni cilj naloge je izdelati delujoč merilnik svetilnosti, raziskati delovanj
 
 
 # SLIKA NAČRTA OHIŠJA
-Skici vezave si lahko ogldate v repezitorju načrt_ohišja.png [klikni za ogled](načrt_ohišja.png) in načrt_pokrova.png [klikni za ogled](načrt_pokorva.png)
+<img width="841" height="743" alt="image" src="https://github.com/user-attachments/assets/25e470b0-c251-4d0f-b379-45bddb48b654" />
+
+Skici vezave si lahko ogldate v repezitorju načrt_ohišja.png [klikni za ogled](načrt_ohišja.png) 
+<img width="780" height="497" alt="image" src="https://github.com/user-attachments/assets/2af65143-3fac-4ea2-9686-edd442e7d508" />
+
+in načrt_pokrova.png [klikni za ogled](načrt_pokorva.png)
 
 # KODA
 Koda se nahaja v repezitorju koda.ino [klikni za ogled](koda.ino)
