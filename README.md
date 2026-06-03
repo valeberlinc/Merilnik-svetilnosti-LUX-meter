@@ -15,7 +15,8 @@ Glavni cilj naloge je izdelati delujoč merilnik svetilnosti, raziskati delovanj
 
 
 # SKICA VEZAVE V EASYEDA
-<img width="1039" height="650" alt="Posnetek zaslona 2026-05-11 114841" src="https://github.com/user-attachments/assets/9f7e4abe-0380-40be-ac14-8c93c3550ec4" />
+<img width="707" height="458" alt="image" src="https://github.com/user-attachments/assets/9793c59a-ed9a-4b76-a8d2-4c6ded4fb57e" />
+
 
 # SLIKA NAČRTA OHIŠJA
 Skici vezave si lahko ogldate v repezitorju načrt_ohišja.png [klikni za ogled](načrt_ohišja.png) in načrt_pokrova.png [klikni za ogled](načrt_pokorva.png)
