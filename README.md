@@ -33,7 +33,7 @@ Koda se nahaja v repezitorju koda.ino [klikni za ogled](koda.ino)
 Pri projektu ni bilo potrebnih nobenih izračunov, samo odčitana vrednost photo upora(10kE)
 
 # POSNETEK DELOVANJA
-posnetek se nahaja v repezitorju video.DELOVANJA.md [klikni za ogled](https://www.youtube.com/shorts/hSyxMnAaIGg)
+posnetek se nahaja v repezitorju video.DELOVANJA.md [klikni za ogled](https://www.youtube.com/shorts/hUxsRScb2II)
 
 # A-TEST
 A-test se nahaja v repezitorju a-test.pdf [klikni za ogled](a-test.pdf)
