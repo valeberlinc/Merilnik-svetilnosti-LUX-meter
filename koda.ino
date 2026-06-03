@@ -116,37 +116,36 @@ void loop() {
   digitalWrite(LED_LIGHT, LOW);
   digitalWrite(LED_BRIGHT, LOW);
 
-  String stanje;
-
   if (lux <= 150) {
     digitalWrite(LED_DARK, HIGH);
-    stanje = "TEMA";
   }
   else if (lux <= 500) {
     digitalWrite(LED_LIGHT, HIGH);
-    stanje = "SVETLO";
   }
   else {
     digitalWrite(LED_BRIGHT, HIGH);
-    stanje = "EKSTRA";
   }
 
-  // ===== LCD =====
+  // ===== LCD - 1. vrstica =====
   lcd.setCursor(0, 0);
   lcd.print("Lux:           ");
   lcd.setCursor(5, 0);
   lcd.print((int)lux);
 
+  // ===== LCD - 2. vrstica =====
+  lcd.setCursor(0, 1);
+  lcd.print("                "); // pobriši vrstico
+
   lcd.setCursor(0, 1);
 
   if (lux <= 150) {
-    lcd.print("TEMNO  ");
+    lcd.print("TEMNO");
   }
   else if (lux <= 500) {
-    lcd.print("SVETLO ");
+    lcd.print("SVETLO");
   }
   else {
-    lcd.print("ZELO SVETLO ");
+    lcd.print("ZELO SVETLO");
   }
 
   delay(1000);
