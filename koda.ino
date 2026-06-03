@@ -4,13 +4,12 @@
 
 // ===== LED pini =====
 const int LED_DARK = 7;     // tema
-const int LED_LIGHT = 8;    // svetlo
-const int LED_BRIGHT = 9;   // ekstra svetlo
+const int LED_LIGHT = 9;    // svetlo
+const int LED_BRIGHT = 8;   // ekstra svetlo
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // ===== KALIBRACIJA =====
-
 const double adc1 = 235.0;
 const double lux1 = 31.4;
 
@@ -28,10 +27,12 @@ double correctionFactor = 1.0;
 // ===== POVPREČENJE ADC =====
 int readADC() {
   long sum = 0;
+
   for (int i = 0; i < 20; i++) {
     sum += analogRead(A0);
     delay(2);
   }
+
   return sum / 20;
 }
 
@@ -61,22 +62,28 @@ double interpolate(double x,
 
 // ===== LUX IZRAČUN =====
 double calculateLux(int raw) {
-  if (raw < 1) raw = 1;
 
-  double lux = interpolate(raw,
-                           adc1, lux1,
-                           adc2, lux2,
-                           adc3, lux3);
+  if (raw < 1)
+    raw = 1;
+
+  double lux = interpolate(
+    raw,
+    adc1, lux1,
+    adc2, lux2,
+    adc3, lux3
+  );
 
   lux *= correctionFactor;
 
-  if (!isfinite(lux) || lux < 0) lux = 0;
+  if (!isfinite(lux) || lux < 0)
+    lux = 0;
 
   return lux;
 }
 
 // ===== SETUP =====
 void setup() {
+
   Serial.begin(9600);
 
   pinMode(LED_DARK, OUTPUT);
@@ -87,13 +94,15 @@ void setup() {
   lcd.backlight();
 
   lcd.setCursor(0, 0);
-  lcd.print("Light meter");
+  lcd.print("Lux meter");
+
   delay(1000);
   lcd.clear();
 }
 
 // ===== LOOP =====
 void loop() {
+
   int raw = readADC();
   double lux = calculateLux(raw);
 
@@ -107,26 +116,38 @@ void loop() {
   digitalWrite(LED_LIGHT, LOW);
   digitalWrite(LED_BRIGHT, LOW);
 
+  String stanje;
+
   if (lux <= 150) {
-    digitalWrite(LED_DARK, HIGH);   // tema
+    digitalWrite(LED_DARK, HIGH);
+    stanje = "TEMA";
   }
   else if (lux <= 500) {
-    digitalWrite(LED_LIGHT, HIGH);  // svetlo
+    digitalWrite(LED_LIGHT, HIGH);
+    stanje = "SVETLO";
   }
   else {
-    digitalWrite(LED_BRIGHT, HIGH); // ekstra svetlo
+    digitalWrite(LED_BRIGHT, HIGH);
+    stanje = "EKSTRA";
   }
 
   // ===== LCD =====
   lcd.setCursor(0, 0);
-  lcd.print("Lux:            ");
+  lcd.print("Lux:           ");
   lcd.setCursor(5, 0);
   lcd.print((int)lux);
 
   lcd.setCursor(0, 1);
-  lcd.print("ADC:            ");
-  lcd.setCursor(5, 1);
-  lcd.print(raw);
+
+  if (lux <= 150) {
+    lcd.print("TEMNO  ");
+  }
+  else if (lux <= 500) {
+    lcd.print("SVETLO ");
+  }
+  else {
+    lcd.print("ZELO SVETLO ");
+  }
 
   delay(1000);
 }
